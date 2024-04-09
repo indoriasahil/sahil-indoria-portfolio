@@ -1,0 +1,176 @@
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #21bcd7;
+}
+
+
+nav a.active {
+    color: #21bcd7;
+}
+
+
+#intro {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 210px; 
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.intro-text {
+    flex-grow: 1;
+}
+
+.intro-text h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.intro-text p {
+    margin-bottom: 20px;
+    color: #555; 
+    font-size: 1.2em;
+}
+
+
+#about,
+#portfolio,
+#contact {
+    margin: 50px 0;
+    padding: 30px; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    color: #333;
+    font-size: 1.5em; 
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px; 
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.1em; 
+}
+
+.project {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    max-height: 150px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-info {
+    margin-top: 20px; 
+}
+
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 2em; 
+    margin-right: 15px; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #21bcd7; 
+}
+
+.project-info .technologies {
+    margin-top: 10px;
+    color: #555;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

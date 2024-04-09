@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sahil Indoria - Web and Python Developer">
+    <meta name="author" content="Sahil Indoria">
+    <meta name="keywords" content="Web Developer, Python Developer, Software Engineer, Portfolio">
+    <meta property="og:title" content="Sahil Indoria - Portfolio">
+    <meta property="og:description" content="Sahil Indoria's portfolio showcasing projects and skills.">
+    <meta property="og:image" content="Sahil-Indoria.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dt9kjaNV4DOuw6bZ9yUp2QaCUcttc9ScT1ZTb4tPP33nB6EGGo1xgXuYlDcCblNt" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d54196b283.js" crossorigin="anonymous"></script>
+    <title>Sahil Indoria - Web and Python Developer</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="intro">
+            <div class="profile-section">
+                <img src="Sahil-Indoria.jpg" alt="Sahil Indoria Photo" class="profile-photo">
+                <div class="intro-text">
+                    <h1>Sahil Indoria</h1>
+                    <p>Web and Python Developer</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                
+                <a href="https://www.instagram.com/indoriasahil004/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/indoriasahil/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/indoriasahil004/" target="_blank"><i class="fab fa-facebook"></i></a>
+                
+            </div>
+        </div>
+    </header>
+
+    <article id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sahil Indoria, a passionate Web and Python Developer pursuing B.Tech. in Computer Science at Poornima University. I thrive on building elegant and efficient solutions. My strong foundation in programming, data structures, and algorithms drives my enthusiasm for learning new technologies. Open to internships and entry-level positions, I aspire to make a positive impact in the world of computer science.</p>
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Front-End Developer</li>
+                <li>Python</li>
+                <li>Java</li>
+                <!-- space for more skills -->
+            </ul>
+        </div>
+    </article>
+
+    <article id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project" onclick="showProjectDetails('Project 1', 'Description of Project 1', 'Technologies: HTML, CSS, JavaScript')">
+            <img src="Portfolio SSb.png" alt="Project 1">
+            <div class="project-info">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+                <button class="btn" onclick="openProjectModal('project1.html')">View Project</button>
+            </div>
+        </div>
+    </article>
+
+    <article id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to connect with me, feel free to email me at <a href="mailto:indoriasahil@gmail.com">indoriasahil@gmail.com</a>. Let's connect on <a href="https://www.instagram.com/indoriasahil004/" target="_blank">Instagram</a> and <a href="https://www.linkedin.com/in/indoriasahil/" target="_blank">LinkedIn</a>.</p>
+        <form action="#" method="post" onsubmit="return validateForm()">
+            <label for="message">Send me a message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 Sahil Indoria</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
